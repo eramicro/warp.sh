@@ -3,7 +3,7 @@
 wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/eramicro/warp.sh/warp.sh && chmod 755 warp.sh && bash warp.sh menu
 ```
 ---------------------------------------------------------------------------------------------------------
-#### 参考P3terx及原创者们，参考来源：
+#### 搬自P3terx原创者们，参考来源：
 
 https://p3terx.com/archives/debian-linux-vps-server-wireguard-installation-tutorial.html
 
