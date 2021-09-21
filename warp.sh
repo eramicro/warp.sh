@@ -1282,6 +1282,7 @@ ${Menu_Title}
  ${FontColor_Green_Bold}5${FontColor_Suffix}. 自动配置 WARP WireGuard 双栈全局网络
  ${FontColor_Green_Bold}6${FontColor_Suffix}. 选择其它 WARP WireGuard 配置方案
  ${FontColor_Green_Bold}7${FontColor_Suffix}. 管理 WARP WireGuard 网络
+ ${FontColor_Green_Bold}0${FontColor_Suffix}. 退出脚本
 "
     unset MenuNumber
     read -p "请输入选项: " MenuNumber
@@ -1308,6 +1309,9 @@ ${Menu_Title}
     7)
         Menu_WARP_WireGuard
         ;;
+    0)
+        exit 1
+        ;;      
     *)
         log ERROR "无效输入！"
         sleep 2s
